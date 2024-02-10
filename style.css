@@ -120,7 +120,7 @@ h2 {
     padding: 20px;
 }
 
-/* Slider */
+
 
 
 
@@ -181,7 +181,7 @@ color: #000;
 }
 
 
-/* Colum Second Editing */
+
 .myclass{
     border-radius: 10px;
   
@@ -198,7 +198,7 @@ color: #000;
     padding-top: 10px;
 }
 
-/* Services Section Start */
+
 .service{
     margin-top: 8rem !important;
 }
@@ -215,7 +215,7 @@ color: #000;
 
 
 .service .card{
-    /* padding: 1.5rem; */
+
     border-radius: 10px;
     box-shadow: 0 0 15px 0 #ddd;
     transition: all .2s;
@@ -235,7 +235,6 @@ color: #000;
 
 }
 
-/* Our Products */
 .our-products{
     margin-top: 2rem;
     min-height: 100vh;
@@ -294,7 +293,7 @@ justify-content: center;
     padding-left: 10px;
 }
 
-/* Testimonials */
+
 
 .testimonials .container .red{
     color: var(--text-color);
@@ -318,13 +317,12 @@ justify-content: center;
     font-weight: bold;
 }
 
-/* GeT Free Guide Section Start */
+
 
 .g-f-g{
     margin-top: 5rem !important;
 }
 
-/* Review Section Start */
 #reviews
 {
     margin-top: 5rem !important;
@@ -385,27 +383,27 @@ justify-content: center;
     padding-top: 20px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
-        align-items: flex-start; /* Align items to the start (left) */
+        align-items: flex-start;
     }
 
     .footer-container div,
     .footer-container h3,
     .footer-container p,
     .footer-container ul li a {
-        text-align: left; /* Ensure text is aligned left */
+        text-align: left;
     }
 
     .footer-container div {
-        width: 100%; /* Optional: make each section use full width */
+        width: 100%;
         margin: 10px 0;
-        padding: 0 15px; /* Add some padding on the sides */
+        padding: 0 15px;
     }
 }
-/* Ensure the navbar-brand and the navbar-toggler are aligned nicely on mobile */
+
 .navbar .container-fluid {
     display: flex;
     align-items: center;
@@ -413,19 +411,19 @@ justify-content: center;
 }
 
 .navbar-toggler {
-    padding: .25rem .75rem; /* Adjust the padding as needed */
-    margin-left: auto; /* This helps in pushing the toggler to the left if there are multiple elements */
+    padding: .25rem .75rem;
+    margin-left: auto;
 }
 
-/* Additional customization for mobile view */
+
 @media (max-width: 992px) {
     .navbar-toggler {
-        margin-left: 0; /* Reset margin-left if needed for mobile view */
+        margin-left: 0;
     }
 
-    /* If you specifically need to adjust the navbar-brand sizing on mobile for alignment */
+    /
     .navbar-brand img {
-        max-width: 100px; /* Adjust based on your preference */
+        max-width: 100px;
         max-height: auto;
     }
 }
