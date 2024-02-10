@@ -60,6 +60,7 @@ nav .dropdown-menu li a:hover{
     color: #fff !important;
     /* padding: 10px !important; */
 }
+
 .hero-section{
     min-height: 100vh;
     width: 100%;
@@ -402,6 +403,30 @@ justify-content: center;
         width: 100%; /* Optional: make each section use full width */
         margin: 10px 0;
         padding: 0 15px; /* Add some padding on the sides */
+    }
+}
+/* Ensure the navbar-brand and the navbar-toggler are aligned nicely on mobile */
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem; /* Adjust the padding as needed */
+    margin-left: auto; /* This helps in pushing the toggler to the left if there are multiple elements */
+}
+
+/* Additional customization for mobile view */
+@media (max-width: 992px) {
+    .navbar-toggler {
+        margin-left: 0; /* Reset margin-left if needed for mobile view */
+    }
+
+    /* If you specifically need to adjust the navbar-brand sizing on mobile for alignment */
+    .navbar-brand img {
+        max-width: 100px; /* Adjust based on your preference */
+        max-height: auto;
     }
 }
 
