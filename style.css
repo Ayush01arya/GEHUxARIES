@@ -25,7 +25,7 @@ margin: 0;
     border: none !important;
 }
 nav{
-    padding: 20px !important;
+    padding: 13px !important;
     /* background-color: var(--main-color); */
 }
 nav.active{
@@ -40,7 +40,7 @@ nav ul li{
 
 nav .nav-item a
 {
-    font-size: 20px;
+    font-size: 18px;
     /* font-weight: ; */
     color: #fff !important;
 }
@@ -76,7 +76,7 @@ nav .dropdown-menu li a:hover{
     left: 15%;
     padding-right: 3rem;
     color: #fff;
-   
+
 }
 .carousel-item img{
     background-size: cover;
@@ -184,7 +184,7 @@ color: #000;
 
 .myclass{
     border-radius: 10px;
-  
+
 }
 
 .successFullyears{
@@ -253,22 +253,94 @@ color: #000;
     color: #fff;
     font-size: 3rem;
 }
+@media (min-width: 992px) { /* Targets screens larger than 992px (desktops) */
+    .align-items-center {
+        align-items: center; /* Vertically centers the items in the row */
+    }
+    .order-lg-2 {
+        order: 2; /* Ensures the image is on the right on desktops */
+    }
+    .order-lg-1 {
+        order: 1; /* Ensures the text content is on the left on desktops */
+    }
+}
 
-.intregation{
-    margin-top: 5rem;
+@media (max-width: 991px) { /* Targets screens smaller than 992px (tablets and mobiles) */
+    .order-lg-2 {
+        order: 1; /* Puts the image above the text on smaller screens */
+    }
+    .order-lg-1 {
+        order: 2; /* Ensures the text content follows the image on smaller screens */
+    }
 }
-.read{
-    margin-top: 5rem;
+
+.intregation {
+  background-color: #f9f9f9; /* Optional: background color for the section */
+  padding: 40px 0;
 }
-.intregation h3{
-    color: var(--text-color);
+
+.intregation .container {
+  max-width: 1140px; /* Bootstrap default container max-width for large devices */
+  margin: auto;
+  padding: 0 15px; /* Ensures padding inside the container */
 }
-.read h3{
-    color: var(--text-color);
+
+.intregation .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Space between image and text */
+}
+
+.intregation .content .row {
+  width: 100%;
+}
+
+.intregation img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
+.intregation .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers the text next to the image */
+}
+
+.intregation h1 {
+  color: #333; /* Dark text color for better readability */
+  margin-bottom: 10px;
+}
+
+.intregation p {
+  text-align: left; /* Ensures text is aligned to the left */
+  color: #666; /* Lighter text color for the paragraph */
+}
+
+.intregation ol {
+  padding-left: 0px; /* Adds space before the list numbers */
+}
+
+.intregation ol li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+@media (max-width: 992px) {
+  .intregation .content {
+    flex-direction: column;
+  }
+
+  .intregation .col-lg-6 {
+    width: 100%; /* Full width for smaller devices */
+  }
+
+  .intregation img {
+    margin-bottom: 20px; /* Adds space between the image and text on smaller screens */
+  }
 }
 
 .exploreNow{
-    padding: 20px 50px;
+    padding: 10px 20px;
     outline: none;
     border: none;
     color: #fff;
@@ -282,11 +354,11 @@ color: #000;
 .read .content .card a{
 text-decoration: none  !important;
 color: var(--text-color) !important;
-font-weight: bold;
-font-size: 20px;
+
+font-size: 15px;
 padding-right: 10px;
 display: flex;
-align-items: center;
+align-items: justify;
 justify-content: center;
 }
 .read .content .card a i{
@@ -295,9 +367,7 @@ justify-content: center;
 
 
 
-.testimonials .container .red{
-    color: var(--text-color);
-}
+
 
 .line
 {
@@ -308,14 +378,6 @@ justify-content: center;
         margin-bottom: 10px;
 }
 
-#testimonlals{
-    margin-top: 5rem !important;
-}
-
-#testimonlals p{
-    color: #000 !important;
-    font-weight: bold;
-}
 
 
 
@@ -323,16 +385,7 @@ justify-content: center;
     margin-top: 5rem !important;
 }
 
-#reviews
-{
-    margin-top: 5rem !important;
-}
 
-/* Award Section Start */
-
-.award{
-    margin-top: 5rem;
-}
 .management{
     margin-top: 5rem;
     height: 100vh;
@@ -426,5 +479,15 @@ justify-content: center;
         max-width: 100px;
         max-height: auto;
     }
+    nav .nav-item a
+{
+    font-size: 12px;
+    /* font-weight: ; */
+    color: #fff !important;
 }
 
+ .my-3 text-dark{
+    align-items: left;
+}
+
+}

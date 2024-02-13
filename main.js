@@ -6,7 +6,7 @@ window.addEventListener("scroll", () => {
         image.src = "img/alogo.png";
     }
     else {
-        image.src = "img/alogo.png";
+        image.src = "img/alogo2.png";
     }
 
 })
