@@ -139,15 +139,20 @@ h2 {
 }
 
 .slider {
-    height: 100px;
-    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.slider-img {
+    width: 1/4 * 100%;
+    max-width: 300px;
     overflow: hidden;
-    position: relative;
-    width: auto;
+    border-radius: 10px;
+
 }
 
 .slider .slide-track {
-    animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px * 14);
 }
@@ -416,10 +421,6 @@ justify-content: center;
 .navbar-toggler {
     padding: .25rem .75rem;
     margin-left: auto;
-}
-
-
-
 }
 
 @media (max-width: 992px) {
