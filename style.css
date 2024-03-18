@@ -79,7 +79,7 @@ nav .dropdown-menu li a:hover{
     left: 15%;
     padding-right: 3rem;
     color: #fff;
-   
+
 }
 .carousel-item img{
     background-size: cover;
@@ -123,11 +123,11 @@ h2 {
     padding: 20px;
 }
 
+#slide-slow-box {
+    width: 100%;
+    height: 100%;
 
-
-
-
-
+}
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -139,15 +139,20 @@ h2 {
 }
 
 .slider {
-    height: 100px;
-    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.slider-img {
+    width: 1/4 * 100%;
+    max-width: 300px;
     overflow: hidden;
-    position: relative;
-    width: auto;
+    border-radius: 10px;
+
 }
 
 .slider .slide-track {
-    animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px * 14);
 }
@@ -187,7 +192,7 @@ color: #000;
 
 .myclass{
     border-radius: 10px;
-  
+
 }
 
 .successFullyears{
@@ -418,10 +423,6 @@ justify-content: center;
     margin-left: auto;
 }
 
-
-
-}
-
 @media (max-width: 992px) {
     .navbar-toggler {
         margin-left: 30;
@@ -431,5 +432,52 @@ justify-content: center;
     .navbar-brand img {
         max-width: 100px;
         max-height: auto;
+    }
+}
+/* Base font size */
+html {
+    font-size: 16px;
+}
+
+/* Using relative font sizes for elements */
+h1 {
+    font-size: 2rem; /* 32px if base size is 16px */
+}
+
+h2 {
+    font-size: 1.5rem; /* 24px if base size is 16px */
+}
+
+p {
+    font-size: 1rem; /* 16px */
+}
+
+/* Media query for tablets and below */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem; /* Slightly smaller */
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 0.875rem; /* Smaller paragraph text */
+    }
+}
+
+/* Media query for phones */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem; /* Even smaller for phones */
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.75rem; /* Smaller paragraph text for phones */
     }
 }
