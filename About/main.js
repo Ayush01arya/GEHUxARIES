@@ -3,10 +3,10 @@ var image = document.querySelector(".navbar-brand img");
 window.addEventListener("scroll", () => {
     nav.classList.toggle("active", window.scrollY > 0)
     if (window.scrollY > 0) {
-        image.src = "https://github.com/Ayush01arya/GEHUxARIES/raw/main/img/alogo.svg";
+        image.src = "alogo.svg";
     }
     else {
-        image.src = "https://github.com/Ayush01arya/GEHUxARIES/raw/main/img/alogo2.svg";
+        image.src = "alogo2.svg";
     }
 
 })
