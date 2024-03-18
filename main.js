@@ -3,7 +3,7 @@ var image = document.querySelector(".navbar-brand img");
 window.addEventListener("scroll", () => {
     nav.classList.toggle("active", window.scrollY > 0)
     if (window.scrollY > 0) {
-        image.src = "img/alogo.png";
+        image.src = "img/alogo.svg";
     }
     else {
         image.src = "img/alogo2.png";
@@ -35,6 +35,3 @@ $(document).ready(function () {
 
 
 //
-var swiper = new Swiper(".swiper-wrapper", {
-    slidesPerView: 3,
-})
