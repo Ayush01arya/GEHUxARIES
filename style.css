@@ -28,7 +28,7 @@ nav{
 
     padding: 16px !important;
 
-    /* background-color: var(--main-color); */
+
 }
 nav.active{
 
@@ -61,14 +61,14 @@ nav .dropdown-menu li{
 
 }
 nav .dropdown-menu li a:hover{
-    font-weight: 500;
+    font-weight: 450;
     background-color: #2A3990 !important;
     color: #fff !important;
     /* padding: 10px !important; */
 }
 
 .hero-section{
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
 }
 
@@ -92,17 +92,8 @@ nav .dropdown-menu li a:hover{
     font-size: 2rem;
 }
 
-.carousel-caption h1{
-    font-size: 3rem;
-    text-align: left !important;
-    font-weight: bold;
-}
-.carousel-caption p{
-    color: #2A3990;
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-align: left !important;
-}
+
+
 
 .carousel-caption button
 {
@@ -138,31 +129,7 @@ h2 {
     }
 }
 
-.slider {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0;
-}
-
-.slider-img {
-    width: 1/4 * 100%;
-    max-width: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-
-}
-
-.slider .slide-track {
-    display: flex;
-    width: calc(250px * 14);
-}
-
-.slider .slide {
-    height: 100px;
-    width: 250px;
-    margin: 0 10px;
-}
-
+.
 
 .orange{
    color: #2A3990;
@@ -208,7 +175,7 @@ color: #000;
 
 
 .service{
-    margin-top: 8rem !important;
+    margin-top: 2rem !important;
 }
 
 .service .container .heading h4{
@@ -242,7 +209,17 @@ color: #000;
     font-size: 20px !important;
 
 }
+.blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
 
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
 .our-products{
     margin-top: 2rem;
     min-height: 100vh;
@@ -262,91 +239,7 @@ color: #000;
     font-size: 3rem;
 }
 
-.intregation{
-    margin-top: 5rem;
-}
-.read{
-    margin-top: 5rem;
-}
-.intregation h3{
-    color: var(--text-color);
-}
-.read h3{
-    color: var(--text-color);
-}
 
-.exploreNow{
-    padding: 20px 50px;
-    outline: none;
-    border: none;
-    color: #fff;
-    background: var(--linear-color);
-    border-radius: 50px;
-
-}
-.exploreNow .content .card{
-    box-sizing: border-box;
-}
-.read .content .card a{
-text-decoration: none  !important;
-color: var(--text-color) !important;
-font-weight: bold;
-font-size: 20px;
-padding-right: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.read .content .card a i{
-    padding-left: 10px;
-}
-
-
-
-.testimonials .container .red{
-    color: var(--text-color);
-}
-
-.line
-{
-    width: 25%;
-        border-top: 3px solid #fc4f19;
-        text-align: center;
-        margin: auto;
-        margin-bottom: 10px;
-}
-
-#testimonlals{
-    margin-top: 5rem !important;
-}
-
-#testimonlals p{
-    color: #000 !important;
-    font-weight: bold;
-}
-
-
-
-.g-f-g{
-    margin-top: 5rem !important;
-}
-
-#reviews
-{
-    margin-top: 5rem !important;
-}
-
-/* Award Section Start */
-
-.award{
-    margin-top: 5rem;
-}
-.management{
-    margin-top: 5rem;
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(90deg, #fc4f19 0, #f6a60d 100%);
-}
 .site-footer {
     background-color: var(--main-color);
     color: #fff;
@@ -434,28 +327,12 @@ justify-content: center;
         max-height: auto;
     }
 }
-/* Base font size */
-html {
-    font-size: 16px;
-}
 
-/* Using relative font sizes for elements */
-h1 {
-    font-size: 2rem; /* 32px if base size is 16px */
-}
-
-h2 {
-    font-size: 1.5rem; /* 24px if base size is 16px */
-}
-
-p {
-    font-size: 1rem; /* 16px */
-}
 
 /* Media query for tablets and below */
 @media (max-width: 768px) {
     h1 {
-        font-size: 1.75rem; /* Slightly smaller */
+        font-size: 1.75rem;
     }
 
     h2 {
@@ -463,11 +340,10 @@ p {
     }
 
     p {
-        font-size: 0.875rem; /* Smaller paragraph text */
+        font-size: 0.875rem;
     }
 }
 
-/* Media query for phones */
 @media (max-width: 576px) {
     h1 {
         font-size: 1.5rem; /* Even smaller for phones */
