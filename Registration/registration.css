@@ -1,0 +1,17 @@
+.table-box {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+.table-grid {
+  width: 70%;
+  min-width: 800px;
+}
+@media screen and (max-width: 800px) {
+  .table-box {
+     justify-content:start;
+  }
+  
+}
