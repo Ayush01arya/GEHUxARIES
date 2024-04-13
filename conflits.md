@@ -1,0 +1,1 @@
+logo image svg or png file => confirm in "main.js".

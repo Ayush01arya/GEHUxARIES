@@ -16,11 +16,6 @@ a{
     text-decoration: none !important;
 }
 
-ul,li{
-padding: 0;
-margin: 0;
-}
-
 .card{
     border: none !important;
 }
@@ -129,8 +124,6 @@ h2 {
     }
 }
 
-.
-
 .orange{
    color: #2A3990;
    font-weight: bold;
@@ -220,6 +213,7 @@ color: #000;
                     opacity: 0;
                 }
             }
+
 .our-products{
     margin-top: 2rem;
     min-height: 100vh;
@@ -241,7 +235,7 @@ color: #000;
 
 
 .site-footer {
-    background-color: var(--main-color);
+    background-color: #2A3990;
     color: #fff;
     padding: 40px 0;
     font-family: "Poppins", sans-serif;
@@ -305,28 +299,7 @@ color: #000;
     }
 }
 
-.navbar .container-fluid {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.navbar-toggler {
-    padding: .25rem .75rem;
-    margin-left: auto;
-}
-
-@media (max-width: 992px) {
-    .navbar-toggler {
-        margin-left: 30;
-    }
-
-
-    .navbar-brand img {
-        max-width: 100px;
-        max-height: auto;
-    }
-}
 
 
 /* Media query for tablets and below */
