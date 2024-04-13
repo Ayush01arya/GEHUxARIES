@@ -4,8 +4,8 @@ function changeNavbarOnScroll() {
 	var image = document.querySelector(".navbar-brand img");
 	window.addEventListener("scroll", () => {
 		NavElement.classList.toggle("active", window.scrollY > 0);
-		if (window.scrollY > 0) image.src = "/static/img/logo_01.svg";
-		else image.src = "/static/img/logo_02.png";
+		if (window.scrollY > 0) image.src = "./static/img/logo_01.svg";
+		else image.src = "./static/img/logo_02.png";
 	});
 }
 class HEADER extends HTMLElement {
@@ -13,7 +13,7 @@ class HEADER extends HTMLElement {
 		this.innerHTML =
 			`<nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="/static/img/logo_02.png" width="50%" height="50%" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="./static/img/logo_02.png" width="50%" height="50%" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -92,9 +92,9 @@ class SLIDER extends HTMLElement {
 					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
 				</div>
 				<div class="carousel-inner">
-					<div class="carousel-item active"><img src="/static/img/slide_show/frame_01.png" class="d-block w-100" alt="" /></div>
-					<div class="carousel-item"><img src="/static/img/slide_show/frame_02.png" class="d-block w-100" alt="" /></div>
-					<div class="carousel-item"><img src="/static/img/slide_show/frame_03.png" class="d-block w-100" alt="" /></div>
+					<div class="carousel-item active"><img src="./static/img/slide_show/frame_01.png" class="d-block w-100" alt="" /></div>
+					<div class="carousel-item"><img src="./static/img/slide_show/frame_02.png" class="d-block w-100" alt="" /></div>
+					<div class="carousel-item"><img src="./static/img/slide_show/frame_03.png" class="d-block w-100" alt="" /></div>
 					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>
 					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></button>
 				</div>
