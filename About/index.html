@@ -5,205 +5,39 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Aries</title>
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles/global.css" />
 </head>
-<!-- Swiper Css -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/alogo.png" width="50%" height="50%" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              About
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">URSI</a></li>
-              <li><a class="dropdown-item" href="#">InRaSS</a></li>
-
-              <li>
-                <a class="dropdown-item" href="#">ARIES</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">GEHU</a>
-              </li>
-
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Committees
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Advisory Committee</a></li>
-              <li><a class="dropdown-item" href="#">Organizing Committee</a></li>
-
-              <li>
-                <a class="dropdown-item" href="#">Scientific Organizing Committee</a>
-              </li>
-
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link active" aria-current="page" href="#">
-              Workshops
-            </a>
-
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Awards
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Student Paper Competition (SPC)</a></li>
-              <li><a class="dropdown-item" href="#">Young Scientist Award (YSA)</a></li>
-
-
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a  class="nav-link active" aria-current="page" href="#" >
-              Program
-            </a>
-
-          </li>
-          <li class="nav-item dropdown">
-            <a  class="nav-link active" aria-current="page" href="#">
-              Registration
-            </a>
-
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Logistics
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Venue</a></li>
-              <li><a class="dropdown-item" href="#">Accommodation</a></li>
-
-              <li>
-                <a class="dropdown-item" href="#">Travel</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Tour</a>
-              </li>
-
-            </ul>
-          </li>
-
-
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sponsorship</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Membership</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-
+  <!-- Header -->
+  <header-component></header-component>
   <!-- Slider -->
-  <div class="hero-section">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-          aria-label="Slide 4"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/img/Frame 4.png" class="d-block w-100" alt="..." />
-
-        </div>
-        <div class="carousel-item">
-          <img src="/img/Frame 3.png" class="d-block w-100" alt="..." />
-
-        </div>
-        <div class="carousel-item">
-          <img src="/img/Frame 5.png" class="d-block w-100" alt="..." />
-
-        </div>
-        <div class="carousel-item">
-          <img src="/img/Frame 6.png" class="d-block w-100" alt="..." />
-
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-
-
-
-
-
-
-
-  <section class="intregation">
+  <slider-component></slider-component>
+  <section class="intregation mt-4">
     <div class="container">
       <h3 class="text-center fw-bold">Plenty of Tourist Attractions in Bhimtal and around<br>Bhimtal is an ancient place named after Bhima of Mahabharata</h3>
-      <h2 class="text-center text-dark fw-bold">
-
-      </h2>
       <div class="content">
         <div class="row">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="/img/imagenani.png" alt="">
-          </div>
+          <div class="col-lg-6"><img class="img-fluid" src="../static/img/tour/nainital.png" alt=""></div>
           <div class="col-lg-6 ps-5">
-            <h1 class="text-dark fw-bold">
-
-              Places to see/visit within 5-50 km distance.
-            </h1>
+            <h1 class="text-dark fw-bold">Places to see/visit within 5-50 km distance.</h1>
             <p class="my-3 text-dark">
               1. Mesmerizing Himalayan view<br>
-2. Rock Climbing<br>
-3. Trekking<br>
-4. Paragliding<br>
-5. Camping<br>
-6. Waterfall<br>
-7. Butterfly Museum<br>
-8. Aquarium Island cafe<br>
-9. Bird Watching<br>
-10.Seven lake tour<br>
-11.Chauli ki Jaali
-
+              2. Rock Climbing<br>
+              3. Trekking<br>
+              4. Paragliding<br>
+              5. Camping<br>
+              6. Waterfall<br>
+              7. Butterfly Museum<br>
+              8. Aquarium Island cafe<br>
+              9. Bird Watching<br>
+              10.Seven lake tour<br>
+              11.Chauli ki Jaali
             </p>
-            <p class="my-3">
-
-            </p>
-
             <button class="exploreNow mt-3">Explore Now</button>
           </div>
         </div>
@@ -211,68 +45,14 @@
     </div>
 
   </section>
-<br>
-<footer class="site-footer">
-    <div class="footer-container">
-        <div class="footer-about">
-            <h3>About Us</h3>
-            <p>The International Union of Radio Science (URSI) - Radio science encompasses the knowledge and study of all aspects of electromagnetic fields and waves. The International Union of Radio Science (Union Radio-Scientifique Internationale), a non-governmental and non-profit organisation under the International Council for Science (ICS), is responsible for stimulating and co-ordinating, on an international basis, studies, research, applications, scientific exchange, and communication in the fields of radio science.
-.</p>
-        </div>
-        <div class="footer-links">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Committees</a></li>
-                <li><a href="#">Workshops</a></li>
-            </ul>
-        </div>
-        <div class="footer-contact">
-            <h3>Contact Us</h3>
-            <p>Email: navtewari@gmail.com</p>
-            <p>Phone: 8081133775</p>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2024 Graphic Era Hill University , Bhimtal . All rights reserved.</p>
-    </div>
-</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script></script>
-  <script src="main.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        300: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        468: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 50,
-        },
-      },
-    });
-  </script>
+  <!-- Footer -->
+  <footer-component></footer-component>
 </body>
+<script src="../script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 </html>

@@ -226,7 +226,7 @@ h2 {
 .our-products {
 	margin-top: 2rem;
 	min-height: 100vh;
-	background-image: url(/static/img/gradient_01.png);
+	background-image: url("../static/img/gradient_01.png");
 	background-position: center;
 	background-size: cover;
 	padding: 3rem;

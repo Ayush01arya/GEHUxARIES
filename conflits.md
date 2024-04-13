@@ -1,1 +1,1 @@
-logo image svg or png file => confirm in "main.js".
+logo image svg or png file => confirm in "script/main.js".
