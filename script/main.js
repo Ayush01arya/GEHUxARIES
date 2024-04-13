@@ -23,7 +23,7 @@ class HEADER extends HTMLElement {
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/About">URSI</a></li>
+              <li><a class="dropdown-item" href="about.html">URSI</a></li>
               <li><a class="dropdown-item" href="#">InRaSS</a></li>
               <li><a class="dropdown-item" href="#">ARIES</a></li>
               <li><a class="dropdown-item" href="#">GEHU</a></li>
@@ -38,7 +38,7 @@ class HEADER extends HTMLElement {
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link active" aria-current="page" href="/Workshops">Workshops</a>
+            <a class="nav-link active" aria-current="page" href="workshop.html">Workshops</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Awards</a>
@@ -48,10 +48,10 @@ class HEADER extends HTMLElement {
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link active" aria-current="page" href="/Program">Program</a>
+            <a class="nav-link active" aria-current="page" href="program.html">Program</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link active" aria-current="page" href="/Registration">Registration</a>
+            <a class="nav-link active" aria-current="page" href="registration.html">Registration</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Logistics</a>
