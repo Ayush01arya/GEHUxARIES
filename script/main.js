@@ -19,7 +19,7 @@ class HEADER extends HTMLElement {
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
             <ul class="dropdown-menu">
@@ -33,8 +33,8 @@ class HEADER extends HTMLElement {
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Committees</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="committes.html">Advisory Committee</a></li>
-              <li><a class="dropdown-item" href="#">Organizing Committee</a></li>
-              <li><a class="dropdown-item" href="#">Scientific Organizing Committee</a></li>
+              <li><a class="dropdown-item" href="Organizing_Committee.html">Organizing Committee</a></li>
+              <li><a class="dropdown-item" href="Scientific_Organizing_Committee.html">Scientific Organizing Committee</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -43,8 +43,8 @@ class HEADER extends HTMLElement {
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Awards</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Student Paper Competition (SPC)</a></li>
-              <li><a class="dropdown-item" href="#">Young Scientist Award (YSA)</a></li>
+              <li><a class="dropdown-item" href="award2.html">Student Paper Competition (SPC)</a></li>
+              <li><a class="dropdown-item" href="awards.html">Young Scientist Award (YSA)</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -56,10 +56,10 @@ class HEADER extends HTMLElement {
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Logistics</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Venue</a></li>
-              <li><a class="dropdown-item" href="#">Accommodation</a></li>
+              <li><a class="dropdown-item" href="logistic_venue.html">Venue</a></li>
+              <li><a class="dropdown-item" href="logistic_accommodations.html">Accommodation</a></li>
               <li><a class="dropdown-item" href="#">Travel</a></li>
-              <li><a class="dropdown-item" href="#">Tour</a></li>
+              <li><a class="dropdown-item" href="logistic_tour.html">Tour</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Sponsorship</a></li>
