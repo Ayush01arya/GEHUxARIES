@@ -4,8 +4,8 @@ function changeNavbarOnScroll() {
 	var image = document.querySelector(".navbar-brand img");
 	window.addEventListener("scroll", () => {
 		NavElement.classList.toggle("active", window.scrollY > 0);
-		if (window.scrollY > 0) image.src = "./static/img/logo_01.svg";
-		else image.src = "./static/img/logo_02.png";
+		if (window.scrollY > 0) image.src = "./static/img/alogo_1.svg";
+		else image.src = "./static/img/logo_02.svg";
 	});
 }
 class HEADER extends HTMLElement {
