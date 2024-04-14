@@ -68,6 +68,11 @@ nav .dropdown-menu li a:hover {
 	/* padding: 10px !important; */
 }
 
+.ham-btn {
+	background-color: #ffffff;
+	opacity: 0.5;
+}
+
 .hero-section {
 	min-height: 100%;
 	width: 100%;
