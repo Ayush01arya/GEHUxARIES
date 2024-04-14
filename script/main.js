@@ -32,13 +32,13 @@ class HEADER extends HTMLElement {
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Committees</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Advisory Committee</a></li>
+              <li><a class="dropdown-item" href="committes.html">Advisory Committee</a></li>
               <li><a class="dropdown-item" href="#">Organizing Committee</a></li>
               <li><a class="dropdown-item" href="#">Scientific Organizing Committee</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link active" aria-current="page" href="workshop.html">Workshops</a>
+            <a class="nav-link active" aria-current="page" href="workshops.html">Workshops</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Awards</a>
