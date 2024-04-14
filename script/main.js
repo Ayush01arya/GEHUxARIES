@@ -63,7 +63,7 @@ class HEADER extends HTMLElement {
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Sponsorship</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Membership</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="membership.html">Membership</a></li>
         </ul>
       </div>
     </div>
