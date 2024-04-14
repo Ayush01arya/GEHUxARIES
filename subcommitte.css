@@ -1,0 +1,33 @@
+.grid-table > * {
+  background-color: rgb(173, 196, 255);
+}
+
+.grid-table > *:nth-child(even) {
+  background-color: #7b96ff;
+}
+.grid-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+
+}
+@media screen and (max-width: 768px) {
+  .grid-table {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 425PX) {
+  .grid-box {
+    padding: 8px;
+    font-size: small;
+  }
+  
+}
+.grid-box {
+  width: 100%;
+  padding: 16px;
+}
+.sub-heading {
+  font-size: 1.2em;
+  font-weight: bold;
+}
