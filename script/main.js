@@ -4,8 +4,8 @@ function changeNavbarOnScroll() {
 	var image = document.querySelector(".navbar-brand img");
 	window.addEventListener("scroll", () => {
 		NavElement.classList.toggle("active", window.scrollY > 0);
-		if (window.scrollY > 0) image.src = "./static/img/logo_01.svg";
-		else image.src = "./static/img/logo_02.png";
+		if (window.scrollY > 0) image.src = "./static/img/alogo_1.svg";
+		else image.src = "./static/img/logo_02.svg";
 	});
 }
 class HEADER extends HTMLElement {
@@ -24,7 +24,7 @@ class HEADER extends HTMLElement {
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="about_ursi.html">URSI</a></li>
-              <li><a class="dropdown-item" href="about_inrass.html">InRaSS</a></li>
+              <li><a class="dropdown-item" href="about_Inrass.html">InRaSS</a></li>
               <li><a class="dropdown-item" href="about_aries.html">ARIES</a></li>
               <li><a class="dropdown-item" href="about_gehu.html">GEHU</a></li>
             </ul>
@@ -35,6 +35,7 @@ class HEADER extends HTMLElement {
               <li><a class="dropdown-item" href="committes.html">Advisory Committee</a></li>
               <li><a class="dropdown-item" href="Organizing_Committee.html">Organizing Committee</a></li>
               <li><a class="dropdown-item" href="Scientific_Organizing_Committee.html">Scientific Organizing Committee</a></li>
+	      <li><a class="dropdown-item" href="subcommitte.html">Sub Committe</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -64,6 +65,7 @@ class HEADER extends HTMLElement {
           </li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="sponsorship.html">Sponsorship</a></li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="membership.html">Membership</a></li>
+	  <li class="nav-item"><a class="nav-link active" aria-current="page" href="papersubmission.html">Paper Submission</a></li>
         </ul>
       </div>
     </div>
