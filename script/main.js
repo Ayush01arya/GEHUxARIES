@@ -23,10 +23,10 @@ class HEADER extends HTMLElement {
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="about.html">URSI</a></li>
-              <li><a class="dropdown-item" href="#">InRaSS</a></li>
-              <li><a class="dropdown-item" href="#">ARIES</a></li>
-              <li><a class="dropdown-item" href="#">GEHU</a></li>
+              <li><a class="dropdown-item" href="about_ursi.html">URSI</a></li>
+              <li><a class="dropdown-item" href="about_inrass.html">InRaSS</a></li>
+              <li><a class="dropdown-item" href="about_aries.html">ARIES</a></li>
+              <li><a class="dropdown-item" href="about_gehu.html">GEHU</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
