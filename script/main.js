@@ -24,7 +24,7 @@ class HEADER extends HTMLElement {
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="about_ursi.html">URSI</a></li>
-              <li><a class="dropdown-item" href="about_inrass.html">InRaSS</a></li>
+              <li><a class="dropdown-item" href="about_Inrass.html">InRaSS</a></li>
               <li><a class="dropdown-item" href="about_aries.html">ARIES</a></li>
               <li><a class="dropdown-item" href="about_gehu.html">GEHU</a></li>
             </ul>
