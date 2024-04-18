@@ -48,6 +48,9 @@ class HEADER extends HTMLElement {
               <li><a class="dropdown-item" href="awards.html">Young Scientist Award (YSA)</a></li>
             </ul>
           </li>
+	  <li class="nav-item dropdown">
+            <a class="nav-link active" aria-current="page" href="papersubmission.html">Paper Submission</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link active" aria-current="page" href="program.html">Program</a>
           </li>
@@ -65,7 +68,7 @@ class HEADER extends HTMLElement {
           </li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="sponsorship.html">Sponsorship</a></li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="membership.html">Membership</a></li>
-	  <li class="nav-item"><a class="nav-link active" aria-current="page" href="papersubmission.html">Paper Submission</a></li>
+	  
         </ul>
       </div>
     </div>
