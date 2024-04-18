@@ -62,8 +62,8 @@ class HEADER extends HTMLElement {
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="logistic_venue.html">Venue</a></li>
               <li><a class="dropdown-item" href="logistic_accommodations.html">Accommodation</a></li>
-              <li><a class="dropdown-item" href="#">Travel</a></li>
-              <li><a class="dropdown-item" href="logistics_tour.html">Tour</a></li>
+              
+              <li><a class="dropdown-item" href="logistics_tour.html">Tour & Travel</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="sponsorship.html">Sponsorship</a></li>
