@@ -1,15 +1,20 @@
-.grid-table > * {
+.table-pattern > * {
   background-color: rgb(173, 196, 255);
 }
 
-.grid-table > *:nth-child(even) {
+.table-pattern > *:nth-child(even) {
   background-color: #7b96ff;
+}
+.flex-table {
+  display: flex;
+  
+  grid-gap: 10px;
 }
 .grid-table {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-
+  
 }
 @media screen and (max-width: 768px) {
   .grid-table {

@@ -35,7 +35,6 @@ class HEADER extends HTMLElement {
               <li><a class="dropdown-item" href="committes.html">Advisory Committee</a></li>
               <li><a class="dropdown-item" href="Organizing_Committee.html">Organizing Committee</a></li>
               <li><a class="dropdown-item" href="Scientific_Organizing_Committee.html">Scientific Organizing Committee</a></li>
-	      <li><a class="dropdown-item" href="subcommitte.html">Sub Committe</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
