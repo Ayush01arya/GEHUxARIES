@@ -20,15 +20,7 @@ class HEADER extends HTMLElement {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="about_ursi.html">URSI</a></li>
-              <li><a class="dropdown-item" href="about_Inrass.html">InRaSS</a></li>
-              <li><a class="dropdown-item" href="about_aries.html">ARIES</a></li>
-              <li><a class="dropdown-item" href="about_gehu.html">GEHU</a></li>
-            </ul>
-          </li>
+         <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Committees</a>
             <ul class="dropdown-menu">
