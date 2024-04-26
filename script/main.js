@@ -53,6 +53,7 @@ class HEADER extends HTMLElement {
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Logistics</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="logistic_venue.html">Venue</a></li>
+	      <li><a class="dropdown-item" href="reaching_bhimtal.html">Reaching Bhimtal</a></li>
               <li><a class="dropdown-item" href="logistic_accommodations.html">Accommodation</a></li>
               
               <li><a class="dropdown-item" href="logistics_tour.html">Tour & Travel</a></li>
