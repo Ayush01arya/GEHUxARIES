@@ -35,8 +35,9 @@ class HEADER extends HTMLElement {
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Awards</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="award2.html">Student Paper Competition (SPC)</a></li>
+              
               <li><a class="dropdown-item" href="awards.html">Young Scientist Award (YSA)</a></li>
+	      <li><a class="dropdown-item" href="award2.html">Student Paper Competition (SPC)</a></li>
             </ul>
           </li>
 	  <li class="nav-item dropdown">
