@@ -11,18 +11,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./styles/global.css" />
   <link rel="stylesheet" href="subcommitte.css">
+  <style>
+    .header {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing between elements */
+    align-items: center; /* Aligns items vertically in the center */
+    margin: 20px; /* Adds some margin around the container */
+    padding: 0 10px; /* Adds padding to avoid touching the edges */
+  }
+  .header h6 {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stacks the items vertically on smaller screens */
+      text-align: center; /* Centers the text for all items */
+    }
+    .header h6 {
+      margin-bottom: 10px; /* Adds space between items when stacked */
+    }
+  }
+    </style>
+    
 </head>
 
 <body>
   <!-- Header -->
   <header-component></header-component>
   <!-- Slider -->
+  <header></header>
   <slider-component></slider-component>
 
   <section class="container my-4">
     <div class="row p-3 align-items-center">
-      <div class="col-lg-6 order-lg-2"><img src="./static/img/tour/gehu_campus.png" alt="" class="img-fluid rounded"></div>
-      <div class="col-lg-6 order-lg-1">
+
+
         <h1 class="orange">SPONSORSHIP
 </h1><p class="my-3">
           Radio Scientists from South Asia and South East Asia region, the majority being from India, will get together for the URSI Regional Conference in Radio Science this year (URSI-RCRS 2024). This biennial gathering will take place from 1st to 4th of December 2022, in IIT Indore located in central India. URSI-RCRS 2024 promises to be an important event that will attract approximately 250 -300 delegates working on a diverse range of topics related to electromagnetic waves,   radio communications,  signal processing,  photonics, radio astronomy, ionosphere, remote sensing and electromagnetics in biology, etc. We expect a wide spectrum of participants from academia, industry, and government laboratories not just from India but also representing countries in SE Asia.
@@ -33,18 +60,17 @@
       <br>
           The local organizing committee and the URSI commission chairs are working hard to make both the technical program and the social events meet and exceed expectations for delegates, sponsors and exhibitors alike. We invite you to take part in supporting this Conference by selecting one or more of the many opportunities that are offered below. Doing so, will demonstrate your organization's position as a leader in this field and allow you to raise your profile with South Asia’s top radio science researchers. We hope to have your organization's name associated with this event.
       </p>
-        </div>
 
     </div>
-      <p class="my-3">Amitava Sen Gupta,<br>
-             <b>Chair, Organizing Committee</b></p>
-      <p class="my-3">Manish Naja,<br>
-             <b>Convener, Organizing committee</b></p>
-      <p class="my-3">Subra Ananthakrishnan ,<br>
-             <b>Conference General Chair</b></p>
-      <h4 class="orange">Participation Profile for URSI-RCRS 2024
+
+     <div class="header">
+    <h6 style="text-align: left;">Amitava Sen Gupta,<br><b>Chair, Organizing Committee</b></h6>
+    <h6 style="text-align: center;">Abhirup Datta,<br><b>Convener, Organizing committee</b></h6>
+    <h6 style="text-align: right;">Subra Ananthakrishnan,<br><b>Conference General Chair</b></h6>
+  </div>
+      <h4 class="orange">Participation Profile for URSI-RCRS 2022
 </h4>
-        <p class="my-5 text-dark">
+       <p class="my-5 text-dark">
           <ul style="disc">
         <li>Expected Attendance: About 300</li>
         <li>Academia: 70%</li>
