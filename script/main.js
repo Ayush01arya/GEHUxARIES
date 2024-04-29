@@ -13,7 +13,7 @@ class HEADER extends HTMLElement {
 		this.innerHTML =
 			`<nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./static/img/alogo.png"  alt="logo"></a>
+      <a class="navbar-brand" href="#"><img src="./static/img/alogo.png" width="25%" height="25%" alt="logo"></a>
       <button class="navbar-toggler ham-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
