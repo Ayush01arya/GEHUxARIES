@@ -5,7 +5,7 @@ function changeNavbarOnScroll() {
 	window.addEventListener("scroll", () => {
 		NavElement.classList.toggle("active", window.scrollY > 0);
 		if (window.scrollY > 0) image.src = "https://github.com/Ayush01arya/GEHUxARIES/raw/main/static/img/alogo.svg";
-		else image.src = "https://github.com/Ayush01arya/GEHUxARIES/raw/main/static/img/alogo2.png";
+		else image.src = "https://github.com/Ayush01arya/GEHUxARIES/raw/main/static/img/alogo2.svg";
 	});
 }
 class HEADER extends HTMLElement {
