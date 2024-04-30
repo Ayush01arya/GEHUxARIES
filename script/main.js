@@ -41,7 +41,12 @@ class HEADER extends HTMLElement {
             </ul>
           </li>
 	  <li class="nav-item dropdown">
-            <a class="nav-link active" aria-current="page" href="papersubmission.html">Paper Submission</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Paper</a>
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" href="callforpaper.html">Call for Paper</a></li>
+	      <li><a class="dropdown-item" href="papersubmission.html">Paper Submission</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link active" aria-current="page" href="program.html">Program</a>
