@@ -116,7 +116,7 @@ nav .dropdown-menu li a:hover {
 
 h2 {
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 }
 
 #slide-slow-box {
@@ -189,28 +189,28 @@ h2 {
 header {
             background-image:url('header.png');
             background-size:cover;
-            background-position: center; /* Center the background image */
-            color: white; /* Ensures text is readable on potentially dark backgrounds */
+            background-position: center;  
+            color: white;  
             top-margin:10px;
-            text-align: center; /* Aligns the text to the center */
+            text-align: center;  
             min-height: 500px;
             margin-top: 0px;
 
         }
 @media (max-width: 768px) {
             header {
-                padding: 15px 5px; /* Reduce padding */
-                min-height: 100px; /* Reduce minimum height */
+                padding: 15px 5px;  
+                min-height: 100px;  
             }
             header h1 {
-                font-size: 1.5em; /* Reduce font size */
+                font-size: 1.5em;  
             }
         }
 
         @media (max-width: 480px) {
             header {
-                padding: 10px 5px; /* Further reduce padding for very small devices */
-                min-height: 80px; /* Further reduce minimum height */
+                padding: 10px 5px;  
+                min-height: 80px;  
             }
             }
 .service .container .headings p {
