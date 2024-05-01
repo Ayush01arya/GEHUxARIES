@@ -11,7 +11,8 @@ function changeNavbarOnScroll() {
 class HEADER extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML =
-			`<nav class="navbar navbar-expand-lg fixed-top">
+<title>Ayush Arya</title>			`
+   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="https://github.com/Ayush01arya/GEHUxARIES/raw/main/static/img/alogo.svg"  alt="logo"></a>
       <button class="navbar-toggler ham-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
