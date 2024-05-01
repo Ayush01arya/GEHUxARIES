@@ -11,7 +11,7 @@ function changeNavbarOnScroll() {
 class HEADER extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML =
-<title>Ayush Arya</title>			`
+			`
    <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="https://github.com/Ayush01arya/GEHUxARIES/raw/main/static/img/alogo.svg"  alt="logo"></a>
