@@ -1,3 +1,4 @@
+document.title = "6th URSI Regional Conference on Radio Science | (URSI-RCRS 2024) (22 - 25 October 2024) |Flagship conference of Indian Radio Science Society";
 function changeNavbarOnScroll() {
 	// On scroll change the navbar background color and logo
 	var NavElement = document.querySelector("nav");
