@@ -10,26 +10,110 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./styles/global.css" />
+    <style>
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+    margin: 0 10px;
+}
+
+    </style>
 </head>
 
 <body>
   <!-- Header -->
   <header-component></header-component>
   <!-- Slider -->
-  <header></header>
+  <slider-component></slider-component>
   <div class="container my-4">
     <div class="row p-3 align-items-center">
-      
+      <div class="col-lg-6 order-lg-2"><img src="./static/img/tour/gehu_campus.png" alt="" class="img-fluid rounded"></div>
+      <div class="col-lg-6 order-lg-1">
         <h1 class="orange">Venue</h1>
         <p class="my-5 text-dark">
           The venue of the URSI-RCRS 2024 is a newly constructed Conference Building in GEHU, Bhimtal.
-          <br>
-          Founded in 2011, Graphic Era Hill University is a private university located in Dehradun, Uttarakhand, India, with the goal of providing world class-education with a clear focus on cutting-edge technologies, professional development of students, critical thinking and quality research. The University has achieved numerous milestones in its glorious past on the basis of its academic rigor, consistently Top Performing Students and Alumni and an immensely <br>
-          Graphic Era Hill University is based in the magnificent and serene city of Dehradun, nestled in the valley surrounded by Rajaji National Park on one end and Clement Town Cantonment on the other. The University prides itself in its University regime that warrants the holistic development of all the students part of the Graphic Era Fraternity.strong and qualified teaching fraternity.
+          <a href="https://www.bing.com/maps?mepi=127%7EDirections%7EUnknown%7EDirection_Button&ty=0&rtp=pos.29.375381469726562_79.53074645996094__Graphic+Era+Hill+University__e_%7E&mode=d&v=2&sV=1&cp=29.358239%7E79.548569&lvl=11.0">Reaching Bhimtal</a>
+          <ul style="disc">
+          <li><b>Kathgodam</b>Railway Station – about 26 km (~ 1 hour drive)
+</li>
+          <li><b>Pantnagar Airport</b>– about 60 km (~ 2 hours drive) </li>
+          <li><b>Bareilly Airport</b>– about 130 km (~ 3.5 hours drive)
+</li>
+          <li><b>IGI ,New Delhi Airport</b>– about 320 km (~ 7 hours drive)</li>
+          <li> 3 trains from Delhi to Kathgodam and several buses</li>
+          Transport arrangements will be made (on payment basis) from above mentioned places to Bhimtal.
+More Information will be provided here.
+
+
+      </ul>
         </p>
-      
+      </div>
     </div>
   </div>
+  <div class="slider my-4">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="img/RE1.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE2.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE3.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE4.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE5.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE1.jpg" height="100" width="250" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="img/RE2.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE3.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE4.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE5.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/RE1.jpg" height="100" width="250" alt="" />
+        </div>
+      </div>
+    </div>
   <!-- Footer -->
   <footer-component></footer-component>
 </body>
